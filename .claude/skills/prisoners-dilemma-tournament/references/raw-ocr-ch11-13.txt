@@ -1,0 +1,724 @@
+=== PDF PAGE 77 ===
+11. Nash Equilibria
+and Non-Cooperative Solutions
+If a two-person game is not zero-sum, we must write both players’ payoffs
+to describe the game. If we have a game in which the payoffs to the players do
+not add to zero, recall from Chapter 9 that the game still might be equivalent to
+a zero-sum game, in the sense that it could be made zero-sum by a change of
+utility scales. In such a game, the interests of the two players are strictly opposed,
+and we can analyze it by zero-sum methods. In general, however, the interests
+of players in a non-zero-sum game are not strictly opposed, and not strictly
+coincident. The game will combine competitive aspects with some opportunities
+for cooperation.
+Cooperation may require communication between the players, and hence the
+analysis of non-zero-sum games depends on what kind of assumptions we make
+about how the players can communicate with each other. We will make three
+different levels of assumptions. In this chapter we will assume that no commu-
+nication between players is possible. Play will be exactly as in the zero-sum
+case: the players choose their strategies simultaneously, and their choice is not
+known to the other player. In Chapter 14 we will allow the players to talk to each
+other before they choose strategies, opening the way for such strategic gambits
+as commitments, threats and promises. Finally, in Chapter 16 we will investigate
+how players might agree on cooperative solutions which are in some sense “fair”
+to both players.
+For the non-cooperative analysis of non-zero-sum games, the logical place
+to begin is with our work on zero-sum games. To what extent can ideas from
+zero-sum games carry over to non-zero-sum games? As a first example, consider
+Colin
+A B
+A | (2,3) — @,2)
+Rose T T
+B (1,0) — (0,1)
+payoffs to (Rose, Colin)
+Game 11.1
+If we look at this game from Rose’s point of view, we notice that no matter
+which strategy Colin chooses, Rose will be better off choosing Rose A than Rose
+B. Rose A dominates Rose B, and we would expect Rose to choose Rose A.
+Knowing this, Colin should of course choose Colin A rather than Colin B, and
+=== PDF PAGE 78 ===
+66 TWO-PERSON NON-ZERO-SUM GAMES
+=
+we would predict (2,3) as the outcome. Although the payoffs look symmetric,
+the arrangement of the payoffs favors Colin.
+This example shows that the Dominance Principle from zero-sum theory still
+applies in the non-zero-sum context. So does the idea of the movement diagram,
+shown above, and the idea of an equilibrium outcome. AA is identified as an
+equilibrium outcome because it has only incoming arrows.
+Equilibrium outcomes in non-zero-sum games correspond to saddle points in
+zero-sum games, and just as there are zero-sum games without saddle points,
+there are non-zero-sum games without pure-strategy equilibria:
+Colin
+A B
+A (2;4)°<— (10)
+Rose | T
+B (3,1) — (0,4)
+Game 11.2: A game with no pure-strategy equilibrium
+The movement diagram is shown in the matrix, and it is clear that there is no pure-
+strategy equilibrium. In the zero-sum case we solved this problem by considering
+mixed strategies. Hence we should ask here: are there mixed strategies for Rose
+and Colin such that if they both play these strategies, neither could gain by
+switching to some other strategy? There are indeed such strategies. Suppose
+we consider Colin’s game, which is the zero-sum game (with payoffs to Colin)
+obtained by considering only Colin’s payoffs in Game 11.2. Rose’s optimal mixed
+strategy in this game is A, $B), and this strategy has the property that it will
+give Colin an expected payoff of 18 regardless of which strategy Colin plays.
+Let’s call it Rose’s equalizing strategy. Similarly, Colin’s equalizing strategy of
+GA, 5B), obtained by looking at Rose’s game, will give Rose an expected payoff
+of 3 regardless of what Rose does.’ Hence if both players adopt these equalizing
+strategies, neither player can gain by deviating. We have found an equilibrium
+in mixed strategies. John Nash [1950a] proved that every two-person game has
+at least one equilibrium in either pure strategies or mixed strategies. We call
+equilibria in non-zero-sum games Nash equilibria in his honor.
+If we could use the idea of a Nash equilibrium as our solution to a non-zero-
+sum game, the theory of non-zero-sum games would be not much harder than
+the zero-sum theory. Unfortunately, there are games where the Nash equilibria
+"It is important to note that Colin’s equalizing strategy here is not Colin’s optimal strategy
+in Rose’s game. Rose’s game has a saddle point at AB. Hence if we apply the method
+of oddments to it, getting (5A, 3B) for Colin, the result is not the optimal strategy. It is,
+though, a strategy which equalizes Rose’s expected payoffs for Rose’s two strategies, and
+that is what we are after here.
+=== PDF PAGE 79 ===
+11. NASH EQUILIBRIA 67
+have unattractive and problematical properties. We can see one such property
+in the Nash equilibrium of Game 11.2. We found that equilibrium by having
+each player play in the other player’s game. Each player ignores his or her own
+payoffs, and plays only to equalize the other player’s payoffs. It is no wonder
+that the resulting payoffs of (1.50, 2.29) seem low for both players. Surely the
+players could do better by paying attention to their own payoffs. We will return
+to this point, but first let us consider some other examples.
+Colin
+B
+AS Cle, 9(25,)
+Rose iL T
+Bo or) — el, 1)
+Game 11.3: A game with two non-equivalent and non-interchangeable equilibria.
+In this game there are two different pure-strategy equilibria, AB and BA. Recall
+that a zero-sum game could have multiple saddle points, but those saddle points
+were always equivalent and interchangeable: all saddle points had the same
+value, and if both players played a saddle point strategy, the resulting outcome
+was always a saddle point. Game 11.3 shows that neither of these properties hold
+for non-zero-sum games. In fact, the equilibrium at BA is better for Rose, the
+equilibrium at AB is better for Colin, and if both players try for their favorite
+equilibrium, they will end up at BB, which is not an equilibrium and is the
+worst outcome for both players. If a game has several non-equivalent and non-
+interchangeable Nash equilibria, it may not be clear which equilibrium the players
+should try for.
+Finally, consider
+A 6e e) ae oa a ed)
+Rose | |
+B 6,-1) — (©,0)
+Game 11.4: A game with a unique equilibrium, which is not Pareto optimal.
+This game has a unique Nash equilibrium at BB. In fact, Rose B dominates Rose
+A, and Colin B dominates Colin A, so this is an equilibrium of the strongest
+possible type. However, it does not seem to be a very happy outcome, since both
+Rose and Colin would be better off at AA, getting a payoff of 3 instead of 0.
+About 1900 the Italian economist Vilfredo Pareto proposed that we should not
+accept an economic system if there is another available system which would
+make everyone better off. If we adapt this idea to two-person games, we get:
+=== PDF PAGE 80 ===
+68 TWO-PERSON NON-ZERO-SUM GAMES
+DEFINITION. An outcome of a game is non-Pareto-optimal (or Pareto inferior
+or Pareto inefficient) if there is another outcome which would give both players
+higher payoffs, or would give one player the same payoff but the other player a
+higher payoff. An outcome is Pareto optimal if there is no such other outcome.
+Note that the word “optimal” here does not mean “best,” just “not obviously
+inferior to some other outcome.” In general a game will have many Pareto
+optimal outcomes. In fact, in a zero-sum game every outcome is Pareto optimal,
+since every gain to one player means a loss to the other. In Game 11.4, outcomes
+AA, AB, and BA are all Pareto optimal. Only BB is non-Pareto-optimal, since
+AA would give both players higher payoffs. Pareto’s idea can be formulated as
+the
+PARETO PRINCIPLE. To be acceptable as a solution to a game, an outcome should
+be Pareto optimal.
+The Pareto Principle is a cogent principle of group rationality. Unfortunately,
+in Game 11.4 it comes into direct conflict with an equally cogent principle
+of individual rationality, the Dominance Principle. Because it embodies this
+conflict, Game 11.4 is a central example in non-zero-sum theory, and we will
+return to it in Chapter 12.
+It is easy to see which outcomes of a game are Pareto optimal if we plot
+the outcomes in a coordinate plane, where the horizontal coordinate is Rose’s
+payoff and the vertical coordinate is Colin’s payoff. After we have plotted the
+points representing the pure-strategy outcomes, mixed strategy outcomes are
+represented by points in the convex polygon enclosing the pure-strategy points.
+For example, the outcome SAA + 5BB appears as the midpoint of the line
+segment joining AA to BB. This polygon is called the payoff polygon for the
+game. Figure 11.1 shows the payoff polygons for Games 11.1 through 11.4. The
+Pareto optimal outcomes are exactly those which lie on the “northeast” boundary
+of the payoff polygon. In Figure 11.1 the Pareto optimal outcomes are shaded.
+Notice that the set of Pareto optimal outcomes for a game can be a line segment,
+several line segments, or even just a single point.
+Recall that I suggested that the mixed-strategy Nash equilibrium for Game
+11.2 was not a very good outcome. If we plot it in the payoff polygon, as shown
+in Figure 11.2b, we can see why it isn’t: it is not Pareto optimal. The pure outcome
+AA, and many mixtures of AA and BA, would be better for both players.
+What we have seen so far is that there are serious problems with the idea of an
+equilibrium point as a solution concept for non-zero-sum games. An equilibrium
+outcome is certainly desirable because of its stability, and Nash proved that one
+always exists. However, there may be multiple equilibrium points which are non-
+equivalent and non-interchangeable, giving rise to coordination problems. Even
+if there is a unique equilibrium point, it may not be Pareto optimal. Given these
+problems, perhaps we should try a different idea. Recall that in zero-sum games,
+equilibrium outcomes arose precisely when both players played their cautious
+=== PDF PAGE 81 ===
+11. NASH EQUILIBRIA 69
+Colin
+a) Game 11.1 b) Game 11.2
+Colin Colin
+c) Game 11.3 d) Game 11.4
+© = Equilibrium outcome
+--- = Pareto optimal outcomes
+Figure 11.1
+minimax strategies of maximizing their payoff in the worst possible case. Let us
+explore the behavior of minimax strategies in the non-zero-sum context.
+Consider Rose’s choice in Game 11.2. The worst possible case would be if
+Colin played to hold Rose’s payoff down, and we already know what Rose should
+do to minimize the damage in that case: she should play the minimax strategy in
+Rose’s game. Rose’s game has a saddle point at AB, so Rose should play Rose
+A, assuring her at least a payoff of 1, the value of Rose’s game. We make the
+following
+DEFINITION. In a non-zero-sum game, Rose’s optimal strategy in Rose’s game
+is called Rose’s prudential strategy. The value of Rose’s game is called Rose’s
+security level.
+By playing her prudential strategy, Rose can assure that she will get at least her
+security level. Of course, the definition for Colin is analogous. In Game 11.2
+Colin’s prudential strategy is the mixed strategy (3A, 3B) and Colin’s security
+level is 18.
+If both players play their prudential strategies in Game 11.2 the outcome
+will be sAA + 3AB = (4, 1), Colin gets exactly his security level; Rose does
+somewhat better than her security level. If we plot this outcome in the payoff
+=== PDF PAGE 82 ===
+70 TWO-PERSON NON-ZERO-SUM GAMES
+9
+polygon, we see that it is not Pareto optimal. It is also not an equilibrium. In
+fact, if Colin thinks that Rose will play her prudential strategy of Rose A, Colin
+should play not (4A, 3B), but pure Colin A. Similarly, if Rose thinks Colin will
+play his prudential mixed strategy, Rose can calculate her expected payoffs for
+Rose A: (4)(2) + (3)(1) = 4 Rose B: (#)(3) + (5)) = #
+and should play Rose B. We will give these “best response” strategies a name:
+DEFINITION. In a non-zero-sum game, a player’s counter-prudential strategy is
+his optimal response to his opponent’s prudential strategy.
+Table 11.1 shows the outcomes of the possible combinations of prudential and
+counter-prudential play. Colin would like Rose to play prudentially, so he can re-
+spond counter-prudentially. Rose would be happy if both players played counter-
+prudentially. Clearly the logic is complicated and not stable. Cautious play, which
+produced stability in zero-sum games, fails badly to produce it in non-zero-sum
+games.
+Rose strategy Colin strategy Rose payoff Colin payoff
+prudential prudential oe 2.29
+prudential counter-prudential 2.00 4.00
+counter-prudential prudential 1g 2.29
+counter-prudential counter-prudential 3.00 1.00
+Rose prudential: A
+Colin prudential: <A, 3B
+Rose counter-prudential: B
+Colin counter-prudential: A
+Table 11.1. Prudential and counter-prudential play in Game 11.2.
+I am afraid that the result of our discussion must be that the solution theory
+for zero-sum games does not carry over to non-zero-sum games, and in fact
+that there is no cogent general solution concept for non-zero-sum games. We
+simply cannot give a general prescription for how to play all such games when
+communication between the players is not allowed. However, it might be useful
+to single out those games for which the problems we have been discussing do
+not arise, and for which we can give reasonable advice:
+DEFINITION. A two-person game is solvable in the strict sense (or SSS) if
+i) there is at least one equilibrium outcome which is Pareto optimal, and
+ii) if there is more than one Pareto optimal equilibrium, all of them are
+equivalent and interchangeable.
+For a game which is solvable in the strict sense, we would prescribe the unique
+Pareto optimal equilibrium, or the set of all equivalent and interchangeable Pareto
+=== PDF PAGE 83 ===
+11. NASH EQUILIBRIA ut
+optimal equilibria, as the solution. Game 11.1 is SSS, but Games 11.2, 11.3, and
+11.4 are not. For a final example, consider Game 11.5, whose movement diagram
+and payoff polygon are shown in Figure 11.2.
+Colin
+A B Cc
+A NetOs—WrOs2)ne O23)
+Rose B (O70): 42 pea=l. 1 )
+Cc (272) CES ii=s 1 )
+Game 11.5
+There are two equilibria, at BB and AC. However, the payoff polygon shows that
+BB is not Pareto optimal, so AC is a unique Pareto optimal equilibrium. Hence
+the game is solvable in the strict sense, and we would prescribe that Rose should
+play Rose A and Colin should play Colin C. These are not, by the way, Rose and
+Colin’s prudential strategies (Exercise 3).
+Rose
+AA BC
+ee
+Figure 11.2: Movement diagram and payoff polygon for Game 11.5
+Finally, Exercise 4 asks you to consider whether even our quite restrictive
+definition of which games are “solvable” might still be too broad. In non-zero-
+sum games, subtlety abounds and easy answers are hard to come by.
+Exercises for Chapter 11
+1. Find a Nash equilibrium in
+(32) (21)
+(4,3) 0,4)
+Is it Pareto optimal?
+=== PDF PAGE 84 ===
+T2 TWO-PERSON NON-ZERO-SUM GAMES
+’
+2. For each of the following games, draw the movement diagram and the payoff polygon,
+and identify all (pure-strategy) equilibria and Pareto optimal outcomes. Determine
+whether the game is solvable in the strict sense. If so, give the solution. If not, say why
+not.
+a) Colin b) Colin c) Colin
+A B C
+(2,2) (4,3) (252), (Gel) A 3,0) 622)-0:4)
+G4). 85 (1,3) (3,4) Rose B (25-2 eles)
+C (4,1) (4,0) (1,0)
+d) The game in c) with the AC payoff changed to (0,5).
+3. For Game 11.5
+a) Verify that Rose’s prudential strategy is (+A, 5B, $C). What is her security level?
+b) Find Colin’s prudential strategy and security level.
+c) What will the expected payoffs be if both players play prudentially? Is this Pareto
+optimal?
+d) Calculate the counter-prudential strategies for Rose and Colin, and make a table
+like Table 11.1 for this game.
+4. Consider the game
+(0,1) (0,1) (2,4)
+(5,1) (4,2) €,0)
+(4,3) G,4) (1,0)
+a) Draw the movement diagram and payoff polygon, show that the game is SSS, and
+find the solution.
+b) Suppose we reduce this game by crossing out dominated strategies. What happens?
+c) Would you feel comfortable recommending the “solution” to this game?
+=== PDF PAGE 85 ===
+12. The Prisoner’s Dilemma
+In 1950 Melvin Dresher and Merrill Flood at the RAND Corporation devised
+Game 12.1 to illustrate that a non-zero-sum game could have an equilibrium
+outcome which is unique, but fails to be Pareto optimal.
+Colin
+A B
+Rose A (0,O PO = 2549
+Bx 2) 1s 19
+Game 12.1: The original Prisoner’s Dilemma. A is “don’t confess,” B is “confess.”
+Later, when presenting this example at a seminar at Stanford University,
+Albert W. Tucker told a story to go with the game (see [Straffin, 1980]). The
+players are two prisoners, arrested for a joint crime, who are being interrogated
+in separate rooms. The clever district attorney tells each one that
+e if one of them confesses and the other does not, the confessor will get a reward
+(payoff +1) and his partner will get a heavy sentence (payoff —2).
+e if both confess, each will get a light sentence (payoff —1).
+At the same time, each has good reason to believe that
+e if neither confesses, both will go free (payoff 0).
+In the years since 1950 this game has become known as the Prisoner’s Dilemma.
+It is the most widely studied and used game in social science.
+Game 12.1 is ordinally equivalent to Game 11.4, which would thus also be
+called Prisoner’s Dilemma. We have already seen the dilemma. Strategy B is
+dominant for both players, leading to the unique equilibrium at BB. However,
+this equilibrium is non-Pareto-optimal, since both players would do better at
+AA. In terms of the story, each prisoner is better off confessing, no matter
+what he believes the other prisoner will do. However, if both confess, both are
+worse off than if neither had confessed. Think about it carefully. The conflict
+between individual rationality in the form of the Dominance Principle and group
+rationality in the form of the Pareto Principle is absolute. Individuals rationally
+pursuing their own best interest end at an outcome which is unfortunate for both
+of them.
+The general form of Prisoner’s Dilemma is shown as Game 12.2, with sug-
+gestive names for the strategies and payoffs. The first condition guarantees that
+strategy D dominates strategy C for both players, and that the unique equilibrium
+=== PDF PAGE 86 ===
+74 TWO-PERSON NON-ZERO-SUM GAMES
+Colin C: cooperate
+C D D: defect
+c | (RR) (S,T) R: reward for cooperation
+Rose D | (8) aU} S: sucker payoff
+‘ T : temptation payoff
+U: uncooperative payoff
+Game 12.2: The general form of Prisoner’s Dilemma
+Conditions: T>R>U>S andR>(S +T)/2
+[Rapoport and Chammah, 1970]
+at DD is Pareto inferior to CC. The second condition says that the players would
+be at least as well off always playing CC as alternating between CD and DC, so
+that CC is Pareto optimal.
+The importance of Prisoner’s Dilemma lies in the fact that many social phe-
+nomena with which we are familiar seem to have Prisoner’s Dilemma at their
+core. Imagine two stores engaged in a price war, deciding whether to cut prices
+or not. If the other store does not cut prices, I can attract its customers by cutting
+prices. If it does cut prices, I had better cut prices so as not to lose my customers.
+If both stores reason this way and cut prices, both make lower profits than if nei-
+ther had cut prices. For two nations engaged in an arms race, the corresponding
+strategic choices might be “arm” and “don’t arm,” and the same reasoning might
+prevail. I expect that you can think of many other examples.
+Because this kind of conflict between individual rationality and group ratio-
+nality seems so pervasive, a number of attempts have been made to resolve the
+Prisoner’s Dilemma, usually by finding some argument which can justify playing
+the cooperative strategy C in Game 12.2 (or strategy A in Games 12.1 and 11.4)
+in defiance of the Dominance Principle. We will consider three of these attempts
+which are interesting in their own right and throw different kinds of light on the
+dilemma.
+Repeated Play in Theory
+Perhaps the most obvious way to try to resolve Prisoner’s Dilemma is to note
+that in many social contexts for which it might be a model, the game is played
+not just once, but repeatedly. In repeated play, it might be worth cooperating in
+early plays in hope of arriving at the mutually beneficial outcome CC, rather than
+face a long string of unprofitable DD’s. Unfortunately, this idea falls victim to a
+logical domino-type argument. Suppose there are to be 100 plays of a Prisoner’s
+Dilemma game, and consider what will happen on the last play. On that play
+both players will know that strategy D dominates strategy C, and there will be
+no future plays to make it worthwhile trying to induce mutual cooperation. The
+outcome on the 100th play will be DD. Once both players realize this, the 99th
+play becomes in effect the last play, and the same argument applies to it. The plays
+=== PDF PAGE 87 ===
+12. THE PRISONER’S DILEMMA aD
+fall backwards like dominoes, and even the first outcome must be DD. Strict logic
+prevents cooperation from ever getting started. (Exercise 1 asks you to further
+investigate this argument by constructing and analyzing the “supergame” of two
+successive plays of Game 12.1.)
+One possible escape from this argument is to observe that, in practice, real
+players do not adhere to this strict logical course of play. We will return to this
+observation at the end of this chapter. A second possible escape is to note that in
+many contexts where a Prisoner’s Dilemma-like game is played repeatedly, the
+players do not know how many games will be played. If they do not know which
+game will be the last, there is no last domino to start the others falling.
+One formal approach to this situation ([Shubik, 1970], [Hill, 1975]) is to
+assume that after each play of Prisoner’s Dilemma, the next play will occur with
+probability p, where p is some number between 0 and 1. Thus the first play
+will happen with probability 1, the second with probability p, the third with
+probability p*, the nth with probability p". Suppose I assume (a big assumption)
+that my opponent will start by choosing C and will continue to choose C until I
+choose my first D. After that, we both will choose all D’s. If I never choose a D,
+my payoff will be
+R
+1 R+pR+p’R+pR+-= -—-—
+(1) pR + p p =p)
+by the formula for summing a geometric series (Exercise 2). On the other hand,
+if I decide to choose my first D in the mth game, my payoff will be
+R+pR+pRt+---p"Tt ++ pp™'™U+'p"!?PRU ++- -:
+5 eti f) m+1q7
+ee P) 4 pop +8 by Exercise 2
+=?) (1 — p)
+Rep Re (Spy t peu
+(2)
+(1 —p)
+Hence I should never choose a D if the expression (1) is larger than the expression
+(2) for all values of m, i.e. if
+R R —p"R + p"T — p™ 7 + p™ lu
+Cle—p) (Clay) ,
+OSD UR ae ct pl ee DU),
+ek < pode U),
+In other words, if the probability of continuing to play is higher than a certain
+threshold value, it makes sense for both players to cooperate, under the assump-
+=== PDF PAGE 88 ===
+76 TWO-PERSON NON-ZERO-SUM GAMES
+~
+tion that the other player will also. For Game 12.1 the threshold probability is
+(1 -—0)/(1 — (-1)) = 5. For Game 11.4 the threshold is (5 — 3)/(5 — 0) = z,
+Unfortunately, the beginning assumption I made about my opponent’s play
+makes the above reasoning less than completely convincing, but it does strongly
+suggest the possibility of mutual cooperation when continuing play is uncertain
+but likely.
+The Metagame Argument
+If Prisoner’s Dilemma is played just once, is there any way to argue that
+the players should choose C? Consider Colin. He might want to cooperate, but
+fear that if he did, Rose would not, and he would get the sucker’s payoff. So
+perhaps he should make his choice contingent on what he thinks Rose will do.
+For example, he could decide to cooperate if he thinks Rose will cooperate,
+but defect if he thinks Rose will defect. Unfortunately, this hopeful idea runs
+up against the fact that Colin is better off defecting even if he thinks Rose will
+cooperate. However, suppose we push this idea one step further. Suppose that
+Colin will make his choice contingent on what he thinks Rose will do, and Rose
+will make her choice contingent on what contingent policy she thinks Colin is
+following. In this complicated scenario, might cooperation arise?
+Nigel Howard [1971] formalized this idea as what he called a metagame. A
+clear introductory account of the idea is given in [Rapoport,1967b]. Consider
+Game 12.1. Let Colin’s choice be contingent on Rose’s choice, so that Colin has
+four strategies:
+I: Choose A regardless of what he thinks Rose will do,
+II: Choose the same alternative he thinks Rose will choose,
+III: Choose the opposite alternative of what he thinks Rose will choose,
+IV: Choose B regardless of what he thinks Rose will do.
+The resulting game is Game 12.3, the first level metagame of Game 12.1.
+Notice that in calculating the payoffs, it is assumed that Colin predicts Rose’s
+choice correctly and acts accordingly.
+Colin
+I: AA II: AB III: BA IV: BB
+A (0,0) (OO) E21 2a)
+Rose
+Be 2) a La re)
+Game 12.3: First level metagame of Game 12.1.
+In Game 12.3, it is no longer the case that Rose B dominates Rose A. Un-
+fortunately, Colin [V dominates all of Colin’s other strategies, and the unique
+equilibrium is at Rose B-Colin IV, which is still non-cooperative. This corre-
+sponds to our first-level argument above, so let us continue to the second level.
+=== PDF PAGE 89 ===
+12. THE PRISONER’S DILEMMA dies
+Let Rose’s choice be contingent on Colin’s contingent strategy, so Rose will
+have 16 strategies. The notation for a Rose strategy in Game 12.4 says what Rose
+will do for each of the four Colin possibilities. For example, Rose XII, denoted
+BABB, means that Rose will choose A if she believes Colin is using strategy
+Colin II, but B if she believes Colin is using Colin I, II, or IV. In calculating the
+payoffs for Game 12.4, it is assumed that Rose correctly predicts Colin’s strategy
+and acts accordingly, and that Colin correctly predicts the resulting Rose action
+and acts accordingly!
+Colin
+I: AA II: AB III: BA IV: BB
+I: AAAA (0,0) (0,0) deeab)t G20)
+II: AAAB (0,0) (O50) Sa 2), en)
+Il: AABA (0,0) OO Kiar 21)
+IV: AABB (0,0) LOO )E i 2). ca
+V: ABAA OO) Lt) C2) CZ,1 )
+VI: ABAB (CI a eee Wa n'y al ral)
+VII: ABBA Oy. a ee ey aoe,2 )
+VII: ABBB ORO) Texlas le Cl 2) sat, dy)
+Rose
+Deb aes yey 20) O70) 2 1 2)
+er as i iz), KOROIS) (2. 1)i( 1 8)
+Par DAA tt; 2) OO) 2) (271)
+A BABE wiih 2) (0,0) 02 ) xb e ly
+RUE Ned 2) Ca oe (= 2) 201)
+Py A PCC) ad, Lycee, by Cd 1)
+DeBoor tiger eed, uy ya) Km LY
+Pees poetry 2),4- 15-1) (i, -—2) (41,—1)
+Game 12.4: Second level metagame of Game 12.1.
+In Game 12.4 Colin does not have a dominant strategy, but you can check
+that Rose XII (BABB) dominates all other Rose strategies. Knowing this, Colin
+should play Colin II, leading to an equilibrium which is cooperative! (Exercise
+3 asks you to find the two other equilibria in this game, which do not arise
+from dominance.) Hence this second level contingent reasoning does lead to
+cooperation. Rose’s best policy is to choose to cooperate if and only if she
+believes that Colin will match her choice, and knowing this, Colin should match
+Rose’s choice.
+I think this reasoning is quite wonderful in its second level complexity: “Co-
+operate if and only if you believe that your opponent will cooperate if and only
+if you do.” However, I have difficulty with the argument because of the amount
+of mind reading involved. Recall that to construct the payoff matrices we had
+to suppose that both players were able to predict each other’s choices at an
+=== PDF PAGE 90 ===
+78 TWO-PERSON NON-ZERO-SUM GAMES
+~ ®
+impressive level of intricacy. I just don’t believe that is reasonable to assume. In
+his presentation of Howard’s argument, Rapoport wrote:
+In order to be intuitively understood and accepted, this formal solution of the Prisoner’s
+Dilemma paradox still needs to be translated in a social context. When and if that is
+accomplished, Prisoner’s Dilemma will deserve a place in the museum of famous
+ex-paradoxes. [Rapoport, 1967b]
+I take this to mean that we must find some way to carry through the essence of
+the argument without requiring mind reading, and I simply don’t see how to do
+that. Perhaps you will have better luck. The metagame idea is certainly related
+to the theory of strategic moves in Chapter 14.
+Repeated Play in Practice
+In practice, people playing repeated Prisoner’s Dilemma do not usually play
+completely non-cooperatively, even when the number of plays is fixed and strict
+logic requires all D’s. For example, in my most recent game theory class seven
+pairs of students played 20 rounds of Prisoner’s Dilemma, before they learned
+about the theory of the game. Seven of the 14 players played C at least one-
+quarter of the time. On the other hand, five of the seven pairs eventually “locked
+in” and played only DD’s in the final rounds, and no pairs locked in on CC.
+Naive players are willing to experiment with cooperation in early rounds of play,
+but are rarely able to sustain mutual cooperative play. Rapoport and Chammah
+[1970] report many results along these lines.
+It might be more interesting to know how sophisticated players play repeated
+Prisoner’s Dilemma. If people know the theory of the game and play against
+other people who they know know it, what will they do? The most ambitious
+experiment of this kind was run by Robert Axelrod, and the results are reported in
+[Axelrod, 1984]. Axelrod invited professional game theorists to write computer
+programs to play iterated Prisoner’s Dilemma, and then conducted a tournament
+in which each program played all the other programs. Fourteen programs were
+entered, some of considerable complexity. The winner was a four line program
+submitted by Anatol Rapoport, called TIT FOR TAT. Its instructions were
+1. Start by choosing C.
+2. Thereafter, in each round choose whatever your opponent chose in the
+previous round.
+In other words, “Do unto your opponent what your opponent has just done unto
+you.” It’s a repeated play version of Colin’s strategy II in Game 12.3.
+Axelrod reported the results of his tournament, including a detailed analysis
+of the highest scoring programs. He gave an example of a program which would
+have won the tournament, beating TIT FOR TAT, if it had been entered. He then
+invited entries for a new tournament. Sixty-two game theorists responded with
+programs for Round Two, including a number of programs intricately designed
+=== PDF PAGE 91 ===
+12. THE PRISONER’S DILEMMA 29
+to do well against TIT FOR TAT. Anatol Rapoport entered TIT FOR TAT again,
+unchanged.
+The result was unexpected: TIT FOR TAT won again! The clever programs
+designed to do well against it, did not fare as well when pitted against each other.
+(Jim Graaskamp and Ken Katzen, two students from my game theory class, wrote
+a program which came in 6th out of the 63.)
+One immediate conclusion is that TIT FOR TAT is a remarkably good and ro-
+bust strategy for playing iterated Prisoner’s Dilemma, at least in an environment
+where a number of sophisticated players are competing. A more general conclu-
+sion comes from Axelrod’s analysis of programs which did well. They tended
+strongly to share four properties with TIT FOR TAT. To do well, a strategy should
+be
+e Nice. It should start by cooperating, and never be the first to defect.
+e Retaliatory. It should reliably punish defection by its opponent.
+e Forgiving. Having punished defection, it should be willing to try cooperating
+again.
+e Clear. Its pattern of play should be consistent and easy to predict.
+It is tempting to speculate about the extent to which these four properties might
+characterize successful social behavior in competitive situations. Axelrod’s book
+offers some provocative generalizations, and we will look again at these ideas in
+Chapter 15.
+Although Prisoner’s Dilemma is the most famous 2 X 2 non-zero-sum game,
+there are other games which seem to capture other interesting aspects of social
+interaction. Some of them are presented in the Exercises. Prisoner’s Dilemma and
+related games have been widely used in experimental work in social psychology.
+Chapter 13 gives one example of such use.
+Exercises for Chapter 12
+1. Suppose Rose and Colin play Game 12.1 twice in succession.
+a) Each player has eight strategies in this “supergame.” List the eight Rose strategies,
+and devise a good notation for them.
+b) Write the 8 X 8 matrix for this game.
+c) Two Rose strategies together dominate all other Rose strategies (and similarly for
+Colin). Find these two strategies and say what would happen in the resulting 2 x 2
+game.
+d) Compare your analysis in c) with the verbal argument in the text about repeated
+play of Prisoner’s Dilemma.
+be ag
+2. a) Show that for any numberp #1, 1+p +p?t ere tp™l= mers
+b) Argue that if 0 < p < 1,t hen lt+ptptpter= Sa
+=== PDF PAGE 92 ===
+TWO-PERSON NON-ZERO-SUM GAMES
+. Game 12.4 has two Nash equilibria besides Rose XII-Colin II. Find them. Are they
+cooperative or non-cooperative?
+. Game 12.5 is known as “Chicken,” after a teenage game popular in the 1950’s. Two
+cars drive straight toward each other at high velocity, and the first driver to swerve
+loses face. A is “swerve,” B is “don’t swerve.”
+Colin
+A B
+(0,0), (= 2, 1)
+Rose
+Gaa2)a(G—s,-5)
+Game 12.5: Chicken
+a) Find the pure strategy Nash equilibria in this game. Are they Pareto optimal?
+b) There is also a mixed strategy Nash equilibrium. Find it.
+c) How would you play Chicken? What would you do if you were going to play it
+10 times? (Some results on what other people do are in [Rapoport and Chammah,
+1969].)
+. Rose and Colin are going to meet at either the artfair or the ballgame, but they left
+home without deciding which. Rose prefers the artfair and Colin prefers the ballgame.
+Of course, they would strongly prefer to meet rather than not meet, and it’s too late to
+get in touch. Construct and analyze a game which represents their dilemma.
+. a) Think of two situations other than those mentioned in the text, which could be
+modeled by Prisoner’s Dilemma. Say specifically who the players are, what the
+strategies are, and why the payoffs meet the Prisoner’s Dilemma conditions.
+b) Do the same for two situations which could be modeled by Chicken (Game 12.5).
+=== PDF PAGE 93 ===
+13. Application to Social Psychology:
+Trust, Suspicion, and the F-Scale
+As a central part of their monumental study The Authoritarian Personality
+in 1950, T. W. Adorno and his co-workers developed one of the prototypes of
+the personality inventories now so familiar to us all. The F-scale inventory was
+a series of statements to which subjects were to respond by writing a number
+from 1 (strongly disagree) to 7 (strongly agree). The statements were designed
+to test personality variables which, the authors argued, underlay susceptibility
+to authoritarian ideologies. Here are the personality variables included, together
+with corresponding sample items from the inventory:
+Conventionalism: “One should avoid doing things in public which appear wrong
+to others, even though one knows that these things are really all right.”
+Authoritarian submission: “What this country needs is fewer laws and agencies,
+and more courageous, tireless, devoted leaders whom the people can put their
+faith in.”
+Authoritarian aggression: “Homosexuality is a particularly rotten form of delin-
+quency and ought to be severely punished.”
+Anti-introspection: “There are some things too intimate or personal to talk about
+even with one’s closest friends.”
+Superstition and stereotyping: “Although many people may scoff, it may yet be
+shown that astrology can explain a lot of things.”
+Power and toughness: “Too many people today are living in an unnatural, soft
+way; we should return to the fundamentals, to a more red-blooded, active way of
+life.”
+Destructiveness and cynicism: “When you come right down to it, it’s human
+nature never to do anything without an eye to one’s own profit.”
+Projection and exaggerated sexual concern: “The sexual orgies of the old Greeks
+and Romans are nursery school stuff compared to some of the goings-on in this
+country today, even in circles where people might least expect it.”
+The F-scale was controversial from its beginning, and has been the subject of
+considerable research in social psychology. For some of the issues, see [Christie
+and Jahoda, 1954]. In the research we will be concerned with, Morton Deutsch
+[1958, 1960] investigated the connection between Adorno’s “authoritarian per-
+sonality” and the commonsense concepts of trust, suspicion, and trustworthi-
+=== PDF PAGE 94 ===
+82 TWO-PERSON NON-ZERO-SUM GAMES
+ness. Would it be true that people who scored high on the F-scale would be
+more suspicious of the behavior of others, and less trusting and trustworthy?
+The first problem was to make the concepts of trust, suspicion, and trustworthi-
+ness operational—to design an experimental situation in which we can identify
+specific types of behavior as showing trust or suspicion, or being trustworthy.
+Deutsch’s idea was to use a Prisoner’s Dilemma game to do this.
+Deutsch first had his subjects (students in an introductory psychology class) fill
+out the F-scale questionnaire. Several weeks later he had them play the Prisoner’s
+Dilemma game
+Second player
+| A B
+A (9,9)0°'(= 10510)
+First player
+Bec) 0, S10) Cees)
+The first player chose A or B, and her choice was announced to the second player.
+Then the second player made his choice, and the payoffs were announced. Each
+subject played the game twice, once as first player and once as second player,
+with different (and unknown) partners each time.
+Notice that if the first player chooses A, she guarantees a large positive payoff
+to the second player. The second player can then choose A and give the first
+player a large positive payoff in return, or choose B and get slightly more for
+himself while giving the first player a large negative payoff. If the first player
+chooses B, the outcome will presumably be —9 for both players. What the first
+player does, therefore, will depend on what she thinks the second player will do
+if she chooses A. If she thinks that the second player will choose A, she should
+choose A. If she thinks that the second player will choose B if she chooses A,
+she should “cut her losses” by choosing B. Deutsch used this analysis to obtain
+the following operational definitions:
+e Trust is choosing A when you are the first player.
+e Suspicion is choosing B when you are the first player.
+e Trustworthiness is choosing A when you are the second player, and the first
+player has chosen A.
+e Untrustworthiness is choosing B when you are the second player, and the first
+player has chosen A.
+Do you agree these are reasonable? In the actual experiment, when subjects
+played as the second player, the first player was fictional—the experimenter
+always announced that she had chosen A.
+Deutsch’s first finding was that there is a strong correlation between being
+trusting and being trustworthy:
+=== PDF PAGE 95 ===
+13. TRUST, SUSPICION, AND THE F-SCALE 83
+Trustworthy Untrustworthy
+Trusting 24 5 x7 = 247
+Suspicious 4 22 p< .001
+Subjects who were trusting as the first player were in general trustworthy as
+the second player, and subjects who were suspicious as the first player were
+correspondingly untrustworthy as the second player. As Deutsch put it,
+It is apparent that the subjects were not behaving in accordance with the ethical
+injunction “Do unto others as you would have others do unto you,” but were rather
+guided by the dictum of cognitive consistency, “Do unto others as you expect them to
+do unto you, and expect others to do unto you as you do unto them.” [Deutsch, 1960]
+To relate this behavior to the F-scale, Deutsch divided F-scale scores into
+categories of low (1.2—2.2), medium (2.3-3.3) and high (3.4—4.4). Notice that
+since the maximum possible score is 7, “high” only means relatively high with
+respect to a generally non-authoritarian population. Here are the results:
+F-scale score
+Low Medium High
+Trusting and trustworthy 12 10 Z
+Suspicious or untrustworthy 2 7 0 x? = 23.6
+Suspicious and untrustworthy 0 13 9 p < .005
+There is a strong correlation between being suspicious and untrustworthy, and
+scoring relatively high on the F-scale.
+We need to be careful what we conclude from this result. What is certainly true
+is that we have discovered a behavioral correlate of the F-scale: relatively high
+scorers will, in general, play a sequential Prisoner’s Dilemma game differently
+from low scorers. It also seems reasonable to interpret ways of playing this
+game as trusting or suspicious or trustworthy. However, there are a number of
+alternative explanations we might give for the correlation we have discovered.
+Deutsch notes two.
+One possible explanation, consistent with the original psychoanalytic conclu-
+sions of Adorno and his colleagues, is that scoring high on the F-scale indicates
+a particular kind of personality structure in which “the conscience or superego is
+incompletely integrated with the self or ego,” which results in the person being
+suspicious and untrustworthy. However, a different explanation might be that
+relatively high scores on the F-scale represent values that have been learned from
+unfortunate experience. A person has found others to be untrustworthy, has re-
+acted by being suspicious, and this justified suspicion has contributed to forming
+the values measured by the F-scale.
+The difference in possible interpretations of this experiment should warn us
+that experimental games cannot take the place of careful thought in social psy-
+chology. However, experimental games can give psychologists a way to make
+=== PDF PAGE 96 ===
+84 TWO-PERSON NON-ZERO-SUM GAMES
+previously vague concepts precise and operational, and provide measurable re-
+sults about connections between those concepts. Since the 1950’s there has been a
+large amount of research involving experimental games, with Prisoner’s Dilemma
+playing a central role. Anatol Rapoport estimated that 200 experiments involving
+Prisoner’s Dilemma were reported in the literature between 1965 and 1973. By
+1982, Andrew Coleman’s estimate was 1000. [Rapoport, 1974] and Chapter 7 of
+[Coleman, 1982] are good places to start if you would like to explore some of
+this literature.
